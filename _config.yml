@@ -1,35 +1,27 @@
-# Site basics
 title: "RefereeIQ"
+email: hello@refereeiq.app
 description: "Rugby laws, explained in seconds."
-remote_theme: "just-the-docs/just-the-docs"
-
-# IMPORTANT for project pages (your repo is not a user/org site)
 url: "https://justinxhale.github.io"
 baseurl: "/refereeiq-site"
 
-# Look & feel (optional)
-logo: "/assets/icon-512.png"     # optional; appears in the header
-favicon_ico: "/assets/icon-512.png"
-
-# Navigation / behavior
-permalink: pretty
-aux_links:
-  "Get the app (Play Store)":
-    - "#"
-aux_links_new_tab: true
-back_to_top: true
-back_to_top_text: "Back to top"
-
-# Footer links (optional)
-just_the_docs:
-  footer:
-    links:
-      - text: "Privacy Policy"
-        url: "/refereeiq-site/privacy.html"
-      - text: "Support"
-        url: "/refereeiq-site/support.html"
-
-# Plugins
+remote_theme: jeromelachaud/freelancer-theme
 plugins:
-  - jekyll-github-metadata
   - jekyll-remote-theme
+
+# Navbar links
+navbar-links:
+  Home: /
+  Privacy: /privacy.html
+  Support: /support.html
+
+# Branding
+avatar: /assets/icon-512.png
+favicon: /assets/icon-512.png
+
+# Social (optional)
+social-network-links:
+  github: JustinXHale
+  email: hello@refereeiq.app
+
+markdown: kramdown
+permalink: pretty

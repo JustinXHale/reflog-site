@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "RefereeIQ"
+subtitle: Rugby laws, explained in seconds
+permalink: /
 nav_order: 1
 ---
 
@@ -12,14 +14,6 @@ Meet **Sofia**, your friendly rugby laws coach. She’s trained to understand th
 
 ---
 
-## Who It’s For
-Whether you’re a **player**, **coach**, **fan**, or **referee**, RefereeIQ helps you:
-- **Get clear answers fast** to your rugby law questions.
-- **See the game through a referee’s eyes** to understand on-field calls.
-- **Explore “what if” scenarios** for a deeper grasp of the game’s context.
-
----
-
 ## How It’s Different
 A rugby law book tells you the black-and-white text.  
 **RefereeIQ adds the missing layer:** *context*.  
@@ -28,10 +22,12 @@ Know not just **what** the law says — but **why** a call was made, or why it w
 ---
 
 ## Screenshots
-![Screenshot 1](./assets/screen-1.png)  
-![Screenshot 2](./assets/screen-2.png)  
-![Screenshot 3](./assets/screen-3.png)
-![Screenshot 3](./assets/screen-4.png)
+<div style="display: flex; overflow-x: auto; gap: 10px; padding-bottom: 10px;">
+  <img src="./assets/screen-1.png" alt="Screenshot 1" style="max-height: 400px;">
+  <img src="./assets/screen-2.png" alt="Screenshot 2" style="max-height: 400px;">
+  <img src="./assets/screen-3.png" alt="Screenshot 3" style="max-height: 400px;">
+  <img src="./assets/screen-4.png" alt="Screenshot 4" style="max-height: 400px;">
+</div>
 ---
 
 ## Get the App

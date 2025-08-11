@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Support
 permalink: /support.html
 nav_order: 95

@@ -1,0 +1,20 @@
+# _config.yml
+title: RefereeIQ
+description: Rugby laws, explained in seconds.
+url: "https://justinxhale.github.io"
+baseurl: "/refereeiq-site"   # important for project pages
+logo: /assets/icon-512.png
+favicon: /assets/icon-512.png
+
+remote_theme: teaguns/odin
+plugins:
+  - jekyll-remote-theme
+
+# Optional nav links (shown in header)
+nav:
+  - name: Home
+    link: /
+  - name: Privacy
+    link: /privacy.html
+  - name: Support
+    link: /support.html

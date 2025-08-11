@@ -1,16 +1,15 @@
-# _config.yml
 title: RefereeIQ
 description: Rugby laws, explained in seconds.
 url: "https://justinxhale.github.io"
-baseurl: "/refereeiq-site"   # important for project pages
+baseurl: "/refereeiq-site"   # keep this since it's a project page
 logo: /assets/icon-512.png
 favicon: /assets/icon-512.png
 
-remote_theme: teaguns/odin
+remote_theme: figs-xyz/jekyll-theme-figs   # ← paste the Figs theme identifier here
 plugins:
   - jekyll-remote-theme
 
-# Optional nav links (shown in header)
+# Optional nav (many themes read this; harmless if ignored)
 nav:
   - name: Home
     link: /

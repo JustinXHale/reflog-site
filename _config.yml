@@ -1,22 +1,66 @@
-title: "RefereeIQ"
+# Site settings
+title: RefereeIQ
 email: hello@refereeiq.app
-description: "Rugby laws, explained in seconds."
-url: "https://justinxhale.github.io"
-baseurl: "/refereeiq-site"   # keep this for a project site
+url: "https://justinxhale.github.io"   # main site URL
+baseurl: "/refereeiq-site"             # path for project site
 
-remote_theme: jeromelachaud/freelancer-theme
-plugins:
-  - jekyll-remote-theme
+description: "Rugby laws, explained in seconds — quick answers and context, anytime."
+keywords: "Rugby, Referee, Rugby Laws, Rugby Referee, Rugby Rules, Rugby Union"
+skills: "Quick answers to rugby laws. See the game through a referee’s eyes. Understand calls with context."
+meta_author: Justin Hale
 
-# Navbar links
-navbar-links:
-  Home: /
-  Privacy: /privacy.html
-  Support: /support.html
+# Google webmaster tools
+google_verify: ""  # add your verification code if needed
 
-# Branding
-avatar: /assets/icon-512.png
-favicon: /assets/icon-512.png
+# Bing webmaster tools
+bing_verify: ""    # add your verification code if needed
 
+# Contact form:
+# 'static' uses formspree.io or similar for email validation
+contact: static
+
+# Disqus comments (optional)
+disqus_shortname: "" # add if using Disqus
+
+# Color settings
+color:
+  primary: ffd400            # brand yellow
+  primary-rgb: "255,212,0"
+  secondary: 12181f          # near black
+  secondary-dark: 0a0d11
+
+# Footer settings
+footer:
+  copyright: RefereeIQ
+  location: Based in the USA
+  social: Connect
+  credits: "RefereeIQ is powered by open source and inspired by the game of Rugby Union."
+
+# Social networks usernames
+social:
+  - title: twitter
+    url: https://twitter.com/refereeiq
+  - title: facebook
+    url: https://facebook.com/refereeiq
+  - title: github
+    url: https://github.com/JustinXHale/refereeiq-site
+
+# Postal address (optional)
+address:
+  - line: RefereeIQ
+  - line: Austin, TX
+
+# Credits content
+credits: 'Freelancer theme adapted for RefereeIQ — originally created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
 markdown: kramdown
 permalink: pretty
+
+# Defaults for posts (if you add a blog later)
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""

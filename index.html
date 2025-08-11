@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RefereeIQ — Rugby laws, explained in seconds</title>
+  <meta name="description" content="RefereeIQ helps players, coaches, fans, and referees understand rugby laws with quick answers and context — anywhere, anytime." />
+  <meta property="og:title" content="RefereeIQ — Rugby laws, explained in seconds" />
+  <meta property="og:description" content="Get quick answers to rugby law questions, explore what‑if scenarios, and see the game through a referee’s eyes." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://justinxhale.github.io/refereeiq-site/" />
+  <meta property="og:image" content="./assets/feature-graphic-1024x500.png" />
+  <link rel="icon" href="./assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --yellow:#ffd400; /* brand yellow */
+      --black:#12181f;  /* near-black for contrast */
+      --ink:#0f172a;    /* slate-ish text */
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Montserrat,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#fff;color:var(--ink);}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    .hero{background:var(--yellow);}
+    .hero-inner{display:grid;grid-template-columns:1.1fr 1fr;gap:28px;align-items:center;padding:56px 24px}
+    .brand{display:flex;align-items:center;gap:16px}
+    .brand img{width:56px;height:56px;border-radius:14px}
+    h1{margin:0;font-size:clamp(28px,4.5vw,44px);line-height:1.05;color:var(--black)}
+    p.lead{font-size:clamp(16px,2.2vw,18px);margin:12px 0 20px;color:#1f2937}
+    .cta{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{appearance:none;border:0;border-radius:12px;padding:12px 16px;font-weight:700;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:10px}
+    .btn.primary{background:var(--black);color:#fff}
+    .btn.secondary{background:#fff;color:var(--black);border:2px solid var(--black)}
+    .features{padding:40px 24px}
+    .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+    .card{border:1px solid #e5e7eb;border-radius:16px;padding:18px}
+    .card h3{margin:0 0 8px 0}
+    .screens{padding:26px 24px}
+    .shots{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+    .shots img{width:100%;border-radius:18px;border:1px solid #e5e7eb}
+    footer{padding:24px;border-top:1px solid #e5e7eb;color:#475569}
+    footer a{color:inherit}
+    @media (max-width:900px){.hero-inner{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.shots{grid-template-columns:1fr 1fr}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container hero-inner">
+      <div>
+        <div class="brand">
+          <img src="./assets/icon-512.png" alt="RefereeIQ app icon" />
+          <strong>RefereeIQ</strong>
+        </div>
+        <h1>Rugby laws, explained in seconds — anywhere, anytime.</h1>
+        <p class="lead">From quick calls to in‑depth scenarios, RefereeIQ helps you make sense of Rugby Union with clear, contextual answers. Meet <strong>Sofia</strong>, your friendly rugby laws coach.</p>
+        <div class="cta">
+          <!-- Replace href with your Play Store link when live -->
+          <a class="btn primary" href="#" aria-label="Get it on Google Play">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 3 18 9-18 9V3z"/></svg>
+            Get it on Google Play
+          </a>
+          <a class="btn secondary" href="#demo">See screenshots</a>
+        </div>
+      </div>
+      <div>
+        <img src="./assets/feature-graphic-1024x500.png" alt="RefereeIQ feature graphic" style="width:100%;border-radius:16px;border:1px solid #e5e7eb"/>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="features container" id="features">
+      <div class="cards">
+        <div class="card">
+          <h3>Quick answers</h3>
+          <p>Ask a question and get a clear response in plain language.</p>
+        </div>
+        <div class="card">
+          <h3>Context that clicks</h3>
+          <p>Understand <em>why</em> a call was made — not just what the law says.</p>
+        </div>
+        <div class="card">
+          <h3>What‑if scenarios</h3>
+          <p>Test situations and learn how small details change the outcome.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="screens container" id="demo">
+      <h2 style="margin:0 0 12px 0">Screenshots</h2>
+      <p class="lead" style="margin:0 0 16px 0">Optimized for phones and tablets. More coming soon.</p>
+      <div class="shots">
+        <!-- Replace these placeholders with real screenshots -->
+        <img src="./assets/screen-1.png" alt="App screenshot 1 placeholder" />
+        <img src="./assets/screen-2.png" alt="App screenshot 2 placeholder" />
+        <img src="./assets/screen-3.png" alt="App screenshot 3 placeholder" />
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <div style="display:flex;gap:16px;flex-wrap:wrap">
+      <span>© <span id="y"></span> RefereeIQ</span>
+      <a href="./privacy.html">Privacy Policy</a>
+      <a href="./support.html">Support</a>
+      <a href="mailto:hello@refereeiq.app">hello@refereeiq.app</a>
+    </div>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>

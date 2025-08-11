@@ -2,7 +2,7 @@ title: "RefereeIQ"
 email: hello@refereeiq.app
 description: "Rugby laws, explained in seconds."
 url: "https://justinxhale.github.io"
-baseurl: "/refereeiq-site"
+baseurl: "/refereeiq-site"   # keep this for a project site
 
 remote_theme: jeromelachaud/freelancer-theme
 plugins:
@@ -17,11 +17,6 @@ navbar-links:
 # Branding
 avatar: /assets/icon-512.png
 favicon: /assets/icon-512.png
-
-# Social (optional)
-social-network-links:
-  github: JustinXHale
-  email: hello@refereeiq.app
 
 markdown: kramdown
 permalink: pretty

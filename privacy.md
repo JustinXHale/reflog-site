@@ -2,11 +2,9 @@
 layout: page
 title: Privacy Policy
 permalink: /privacy.html
-nav_order: 90
 ---
 
 # Privacy Policy
-
 RefereeIQ collects minimal data to operate and improve the app.
 
 ## Data we collect

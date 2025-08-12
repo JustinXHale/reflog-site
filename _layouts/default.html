@@ -1,24 +1,69 @@
 <!DOCTYPE html>
-<html>
-{% include head.html %}
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title }} · {{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}" />
+  <meta property="og:title" content="{{ page.title }} · {{ site.title }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+  <meta property="og:image" content="{{ '/assets/icon-512.png' | relative_url }}" />
+  <link rel="icon" href="{{ '/assets/icon-512.png' | relative_url }}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--yellow:#FFD400;--ink:#141E29;--text:#0f172a}
+    *{box-sizing:border-box}
+    html,body{margin:0}
+    body{font-family:Montserrat,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--text);background:#fff}
+    a{color:inherit}
+    .topbar{position:sticky;top:0;z-index:50;background:var(--yellow);border-bottom:1px solid rgba(0,0,0,.08)}
+    .topbar .wrap{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:14px;padding:10px 16px}
+    .topbar img{width:28px;height:28px;border-radius:6px}
+    .topbar nav{margin-left:auto;display:flex;gap:16px}
+    .topbar a{font-weight:700;text-decoration:none}
+    main{max-width:1100px;margin:0 auto;padding:24px 16px}
+    footer{border-top:1px solid #e5e7eb;color:#475569}
+    footer .wrap{max-width:1100px;margin:0 auto;padding:20px 16px;display:flex;gap:16px;flex-wrap:wrap;align-items:center}
+    .shots{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+    .shots img{width:100%;border-radius:16px;border:1px solid #e5e7eb}
+    @media (max-width:900px){.shots{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    .hero{background:var(--ink);color:#fff;border-radius:18px;padding:24px;margin:16px 0}
+    .hero img{width:100%;border-radius:14px;border:1px solid rgba(255,255,255,.15)}
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap">
+      <img src="{{ '/assets/icon-512.png' | relative_url }}" alt="RefereeIQ icon"/>
+      <strong>{{ site.title }}</strong>
+      <nav>
+        <a href="{{ '/' | relative_url }}#features">Features</a>
+        <a href="{{ '/' | relative_url }}#screenshots">Screenshots</a>
+        <a href="{{ '/privacy.html' | relative_url }}">Privacy</a>
+        <a href="{{ '/support.html' | relative_url }}">Support</a>
+      </nav>
+    </div>
+  </div>
 
-<body id="page-top" class="index">
-  {% include nav.html %}
-  {% include header.html %}
-  {% include portfolio_grid.html %}
-  {% include about.html %}
+  <main>
+    {{ content }}
+  </main>
 
-  {% if site.contact == "static" %}
-  {% include contact_static.html %}
-  {% elsif site.contact == "disqus" %}
-  {% include contact_disqus.html %}
-  {% else %}
-  {% include contact.html %}
-  {% endif %}
-
-  {% include footer.html %}
-  {% include modals.html %}
-  {% include js.html %}
+  <footer>
+    <div class="wrap">
+      <span>© <span id="y"></span> {{ site.title }}</span>
+      <span>•</span>
+      <a href="mailto:hello@refereeiq.app">hello@refereeiq.app</a>
+      <span>•</span>
+      <a href="{{ '/privacy.html' | relative_url }}">Privacy Policy</a>
+      <span>•</span>
+      <a href="{{ '/support.html' | relative_url }}">Support</a>
+    </div>
+  </footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
-
 </html>

@@ -3,6 +3,7 @@ layout: default
 title: Home
 ---
 
+
 # RefereeIQ — Rugby laws, explained in seconds — anywhere, anytime.
 
 From quick calls to in-depth scenarios, RefereeIQ helps you make sense of the game.

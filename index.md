@@ -3,16 +3,17 @@ layout: default
 title: Home
 ---
 
-# 🏉 RefereeIQ — Rugby laws, explained in seconds
+# RefereeIQ — Rugby laws, explained in seconds — anywhere, anytime.
 
-From quick calls to in‑depth scenarios, RefereeIQ helps you make sense of Rugby Union with clear, contextual answers. Meet **Sofia**, your friendly rugby laws coach.
+From quick calls to in-depth scenarios, RefereeIQ helps you make sense of the game.
+Meet **Sofia**, your friendly rugby laws coach. She’s trained to understand the flow, nuance, and context of Rugby Union — so you can have real, back-and-forth conversations about even the most complex situations.
 
-## Features {#features}
-- **Quick answers** to rugby law questions
-- **Context** so calls make sense
-- **What‑if scenarios** to learn how details change outcomes
+Whether you’re a player, coach, fan, or referee, RefereeIQ helps you:
+- **Get clear answers fast** to your rugby law questions.
+- **See the game through a referee’s eyes** to understand on-field calls.
+- **Explore “what if” scenarios** for a deeper grasp of the game’s context.
 
-> Unlike a law book that only gives you black‑and‑white text, RefereeIQ adds the missing layer: *context*.
+> Unlike a law book that only gives you black‑and‑white text, RefereeIQ adds the missing layer: *context*. Know not just what the law says — but why a call was made, or why it wasn’t.
 
 ## Screenshots {#screenshots}
 <div class="shots">

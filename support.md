@@ -8,5 +8,5 @@ permalink: /support.html
 
 Questions or feedback? We’re here to help.
 
-- Email: **hello@refereeiq.app**
+- Email: **justinxhale@gmail.com**
 - GitHub: [Issues](https://github.com/JustinXHale/refereeiq-site/issues)

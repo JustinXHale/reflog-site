@@ -15,7 +15,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    :root{--yellow:#FAD81C;--ink:#141E29;--text:#0f172a}
+:root {
+  --blue: #111E29;
+  --yellow: #FBD823;  /* still useful for accents */
+  --ink: #111E29;     /* make sure ink matches your blue */
+  --text: #0f172a;
+}
     *{box-sizing:border-box}
     html,body{margin:0}
     body{font-family:Montserrat,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--text);background:#fff}
@@ -23,9 +28,10 @@
 
     /* Stacked header styles */
     .topbar.stacked {
-      background: var(--yellow);
+      background: var(--blue);
       border-bottom: 1px solid rgba(0,0,0,.08);
       padding: 20px 0;
+      color: white
     }
     .topbar.stacked .wrap {
       max-width: 1100px;
@@ -81,7 +87,7 @@
 <body>
 <div class="topbar stacked">
   <div class="wrap">
-    <img src="{{ '/assets/reflogo-banner.png' | relative_url }}" alt="RefLog logo" class="full-logo"/>
+    <img src="{{ '/assets/reflog-banner.png' | relative_url }}" alt="RefLog logo" class="full-logo"/>
     <a href="https://play.google.com/store/apps/details?id=com.reflog" target="_blank" class="play-button">
       <img src="{{ '/assets/GetItOnGooglePlay_Badge_Web_color_English.png' | relative_url }}" alt="Get it on Google Play">
     </a>

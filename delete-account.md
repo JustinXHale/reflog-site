@@ -4,15 +4,15 @@ title: Delete Account
 permalink: /delete-account.html
 ---
 
-# Delete Your RefereeIQ Account
+# Delete Your RefLog Account
 
-If you’d like to permanently delete your RefereeIQ account and all associated data, follow the steps below. Once deleted, your account and data **cannot be recovered**.
+If you’d like to permanently delete your RefLog account and all associated data, follow the steps below. Once deleted, your account and data **cannot be recovered**.
 
 ## How to request deletion
-Email us from the email address linked to your RefereeIQ account:
+Email us from the email address linked to your RefLog account:
 
-- **To:** [justinxhale@gmail.com](mailto:justinxhale@gmail.com?subject=RefereeIQ%20Account%20Deletion%20Request&body=Please%20delete%20my%20RefereeIQ%20account.%0A%0ARegistered%20email%3A%20%3Cyour%20email%3E%0A%0AI%20understand%20this%20action%20is%20permanent.%0A)
-- **Subject:** `RefereeIQ Account Deletion Request`
+- **To:** [justinxhale@gmail.com](mailto:justinxhale@gmail.com?subject=RefLog%20Account%20Deletion%20Request&body=Please%20delete%20my%20RefLog%20account.%0A%0ARegistered%20email%3A%20%3Cyour%20email%3E%0A%0AI%20understand%20this%20action%20is%20permanent.%0A)
+- **Subject:** `RefLog Account Deletion Request`
 - **Include:** The **registered email** for your account and a statement that you want your account deleted.
 
 > Tip: Click the email link above to open a pre-filled message.

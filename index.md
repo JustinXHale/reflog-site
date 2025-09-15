@@ -3,18 +3,17 @@ layout: default
 title: Home
 ---
 
+# RefLog — Log, review, and improve your refereeing.
 
-# RefereeIQ — Rugby laws, explained in seconds — anywhere, anytime.
+RefLog is the modern match logbook built for rugby referees. With simple tools for recording and reviewing events, you can spend less time coding games and more time learning from them.  
 
-From quick calls to in-depth scenarios, RefereeIQ helps you make sense of the game.
-Meet **Sofia**, your friendly rugby laws coach. She’s trained to understand the flow, nuance, and context of Rugby Union — so you can have real, back-and-forth conversations about even the most complex situations.
+Whether you’re just starting out or building experience at the community level, RefLog helps you:  
+- **Log match events quickly** with clear timestamps.  
+- **Review footage efficiently** by linking events to YouTube video.  
+- **Add context with notes** so you don’t forget key details.  
+- **Stay organized** with a clean timeline of your matches.  
 
-Whether you’re a player, coach, fan, or referee, RefereeIQ helps you:
-- **Get clear answers fast** to your rugby law questions.
-- **See the game through a referee’s eyes** to understand on-field calls.
-- **Explore “what if” scenarios** for a deeper grasp of the game’s context.
-
-> Unlike a law book that only gives you black‑and‑white text, RefereeIQ adds the missing layer: *context*. Know not just what the law says — but why a call was made, or why it wasn’t.
+> RefLog isn’t just about recording the game — it’s about making review simple, so you can keep improving every match.
 
 ## Screenshots {#screenshots}
 <div class="shots">

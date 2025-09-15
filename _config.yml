@@ -1,8 +1,8 @@
 # Jekyll config for a simple project site that renders Markdown with a custom layout
 url: "https://justinxhale.github.io"
-baseurl: "/refereeiq-site"
+baseurl: "/refLog-site"
 
-title: "RefereeIQ"
+title: "RefLog"
 description: "Rugby laws, explained in seconds."
 
 markdown: kramdown

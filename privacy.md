@@ -4,18 +4,18 @@ title: Privacy Policy
 permalink: /privacy.html
 ---
 
-# Privacy Policy for RefereeIQ
+# Privacy Policy for RefLog
 
 _Last updated: {{ site.time | date: "%Y-%m-%d" }}_
 
-RefereeIQ (“we,” “our,” or “us”) respects your privacy.  
+RefLog (“we,” “our,” or “us”) respects your privacy.  
 This Privacy Policy explains how we collect, use, and protect your information when you use our mobile application.
 
 ---
 
 ## 1. Information We Collect
 
-When you use RefereeIQ, we may collect:
+When you use RefLog, we may collect:
 
 - **Account Information**:  
   - Email address  
@@ -82,7 +82,7 @@ In the future, we plan to add an **in-app deletion option** for your convenience
 
 ## 6. Third-Party Services
 
-RefereeIQ uses the following third-party services:
+RefLog uses the following third-party services:
 
 - **Firebase Authentication**  
 - **Google Cloud Firestore**  

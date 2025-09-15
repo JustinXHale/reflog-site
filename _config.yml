@@ -1,4 +1,3 @@
-# Jekyll config for a simple project site that renders Markdown with a custom layout
 url: "https://justinxhale.github.io"
 baseurl: "/refLog-site"
 
@@ -7,3 +6,6 @@ description: "Rugby laws, explained in seconds."
 
 markdown: kramdown
 permalink: pretty
+
+include:
+  - img

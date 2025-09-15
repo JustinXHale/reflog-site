@@ -17,8 +17,8 @@ Whether you’re just starting out or building experience at the community level
 
 ## Screenshots {#screenshots}
 <div class="shots">
-  <img src="{{ '/img/screenshots/01reflog.png' | relative_url }}" alt="Screenshot 1"/>
-  <img src="{{ '/img/screenshots/02reflog.png' | relative_url }}" alt="Screenshot 2"/>
-  <img src="{{ '/img/screenshots/03reflog.png' | relative_url }}" alt="Screenshot 3"/>
-  <img src="{{ '/img/screenshots/04reflog.png' | relative_url }}" alt="Screenshot 4"/>
+  <img src="{{ '/img/screenshots/01reflog.png' | relative_url }}" alt="Ref Screenshot 1"/>
+  <img src="{{ '/img/screenshots/02reflog.png' | relative_url }}" alt="Ref Screenshot 2"/>
+  <img src="{{ '/img/screenshots/03reflog.png' | relative_url }}" alt="Ref Screenshot 3"/>
+  <img src="{{ '/img/screenshots/04reflog.png' | relative_url }}" alt="Ref Screenshot 4"/>
 </div>

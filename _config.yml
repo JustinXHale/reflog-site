@@ -1,7 +1,7 @@
 url: "https://justinxhale.github.io"
-baseurl: "/refLog-site"
+baseurl: "/reflog-site"
 
-title: "Reflog"
+title: "RefLog"
 description: "Rugby laws, explained in seconds."
 
 markdown: kramdown

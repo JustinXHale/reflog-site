@@ -22,5 +22,3 @@ Whether you’re just starting out or building experience at the community level
   <img src="{{ '/img/screenshots/03reflog.png' | relative_url }}" alt="Ref Screenshot 3"/>
   <img src="{{ '/img/screenshots/04reflog.png' | relative_url }}" alt="Ref Screenshot 4"/>
 </div>
-
-<img src="https://upload.wikimedia.org/wikipedia/en/7/70/Shrek.jpg" alt="Test image" />

@@ -24,7 +24,7 @@ Whether you’re just starting out or building experience at the community level
 </div>
 
 ## Screenshots (dark mode) {#screenshots}
-<div class="iosshots">
+<div class="shots">
   <img src="{{ '/img/screenshots/05dark.png' | relative_url }}" alt="Ref Screenshot 5"/>
   <img src="{{ '/img/screenshots/06dark.png' | relative_url }}" alt="Ref Screenshot 6"/>
   <img src="{{ '/img/screenshots/07dark.png' | relative_url }}" alt="Ref Screenshot 7"/>

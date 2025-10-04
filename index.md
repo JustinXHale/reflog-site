@@ -15,10 +15,18 @@ Whether you’re just starting out or building experience at the community level
 
 > RefLog isn’t just about recording the game — it’s about making review simple, so you can keep improving every match.
 
-## Screenshots {#screenshots}
+## Screenshots (light mode) {#screenshots}
 <div class="shots">
   <img src="{{ '/img/screenshots/01reflog.png' | relative_url }}" alt="Ref Screenshot 1"/>
   <img src="{{ '/img/screenshots/02reflog.png' | relative_url }}" alt="Ref Screenshot 2"/>
   <img src="{{ '/img/screenshots/03reflog.png' | relative_url }}" alt="Ref Screenshot 3"/>
   <img src="{{ '/img/screenshots/04reflog.png' | relative_url }}" alt="Ref Screenshot 4"/>
+</div>
+
+## Screenshots (dark mode) {#screenshots}
+<div class="iosshots">
+  <img src="{{ '/img/screenshots/05dark.png' | relative_url }}" alt="Ref Screenshot 5"/>
+  <img src="{{ '/img/screenshots/06dark.png' | relative_url }}" alt="Ref Screenshot 6"/>
+  <img src="{{ '/img/screenshots/07dark.png' | relative_url }}" alt="Ref Screenshot 7"/>
+  <img src="{{ '/img/screenshots/08dark.png' | relative_url }}" alt="Ref Screenshot 8"/>
 </div>

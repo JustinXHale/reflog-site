@@ -1,36 +1,56 @@
 ---
 layout: default
-title: Delete Account
+title: Delete Your Data
 permalink: /delete-account.html
 ---
 
-# Delete Your RefLog Account
+# Delete Your RefLog Data
 
-If you’d like to permanently delete your RefLog account and all associated data, follow the steps below. Once deleted, your account and data **cannot be recovered**.
+RefLog is **local-first** and does not currently require an account. All your match data is stored locally on your device, not in the cloud.
 
-## How to request deletion
-Email us from the email address linked to your RefLog account:
+---
 
-- **To:** [justinxhale@gmail.com](mailto:justinxhale@gmail.com?subject=RefLog%20Account%20Deletion%20Request&body=Please%20delete%20my%20RefLog%20account.%0A%0ARegistered%20email%3A%20%3Cyour%20email%3E%0A%0AI%20understand%20this%20action%20is%20permanent.%0A)
-- **Subject:** `RefLog Account Deletion Request`
-- **Include:** The **registered email** for your account and a statement that you want your account deleted.
+## How to Delete Your Local Data
 
-> Tip: Click the email link above to open a pre-filled message.
+### Option 1: Delete Individual Matches
+Within the RefLog app:
+1. Go to the match list in Ref Mode or Coach Mode
+2. Swipe left on any match or long-press to select
+3. Tap the delete button
+4. Confirm deletion
 
-## What we’ll delete
-- Your account profile (email and display name)
-- Authentication data
-- App usage data associated with your account
-- Any other personal data stored in **Google Cloud Firestore**
+### Option 2: Uninstall the App
+To remove **all** RefLog data from your device:
+1. Uninstall the RefLog app from your iOS or Android device
+2. All local match data will be permanently deleted
 
-> We keep minimal data and do **not** sell personal information.
+**Important:** Once deleted, your local data cannot be recovered. Consider exporting important matches as PDFs or Excel files before deletion.
 
-## Timeline
-- We will verify your request and complete deletion **within 30 days**.
-- You’ll receive a confirmation email when the deletion is finished.
+---
 
-## In‑app deletion (coming soon)
-We’re working on an **in‑app delete account** option. Until then, email deletion is fully supported.
+## Before You Delete
 
-## Need help?
-If you have questions about this process, reply to your deletion email or contact us at **[justinxhale@gmail.com](mailto:justinxhale@gmail.com)**.
+We recommend backing up any matches you want to keep:
+1. Open the match in RefLog
+2. Tap the export button
+3. Save the PDF or Excel file to your device or cloud storage
+4. Share it to your email, Google Drive, Dropbox, etc.
+
+---
+
+## Future Cloud Features
+
+When we introduce optional cloud sync and collaboration features in the future:
+- Accounts will be optional (local-only use will still be supported)
+- Cloud account deletion will be available via in-app settings or by request
+- We'll update this page with instructions for cloud account deletion
+
+---
+
+## Need Help?
+
+If you have questions about data management or deletion:
+- **Email:** [justinxhale@gmail.com](mailto:justinxhale@gmail.com)
+- **Subject:** RefLog Data Question
+
+We're happy to help!

@@ -3,17 +3,68 @@ layout: default
 title: Home
 ---
 
-# RefLog — Log, review, and improve your refereeing.
+# The Modern Referee's Match Companion
 
-RefLog is the modern match logbook built for rugby referees. With simple tools for recording and reviewing events, you can spend less time coding games and more time learning from them.  
+RefLog is the mobile-first rugby referee match logging app. Whether you're reviewing your own performance, receiving coach feedback, or managing match operations, RefLog gives you professional tools in your pocket.
 
-Whether you’re just starting out or building experience at the community level, RefLog helps you:  
-- **Log match events quickly** with clear timestamps.  
-- **Review footage efficiently** by linking events to YouTube video.  
-- **Add context with notes** so you don’t forget key details.  
-- **Stay organized** with a clean timeline of your matches.  
+**Log matches. Review performance. Improve your refereeing—all from your phone.**
 
-> RefLog isn’t just about recording the game — it’s about making review simple, so you can keep improving every match.
+---
+
+## Two Core Modes
+
+### Ref Mode - Post-Match Film Review
+Watch your match video and code key decisions with timestamps. Perfect for self-reflection and building your development library.
+
+- Timestamped event logging (tries, penalties, cards, scrums, lineouts, etc.)
+- Match clock tracking with back-offset timing
+- Event notes and context
+- Professional PDF export for match reports
+- Event filtering and search
+
+### Coach Mode - Live Observation & Feedback
+Take structured notes during live matches and provide holistic feedback to developing referees.
+
+- Match observation organized by phase (pre-match, in-match, post-match)
+- Focus area tracking (positioning, communication, game management, etc.)
+- Timestamped notes for key moments
+- Coach report generation
+- Share feedback immediately after the match
+
+### Tech Zone Mode - Match Operations (Beta)
+Advanced mode for technical match officials and staff. Manage everything from kickoff to final whistle.
+
+- Multiple match clocks and custom timers
+- Full roster tracking with smart substitutions
+- Live scoring with event timeline
+- Period management (halves, extra time)
+- Team customization and color coding
+
+*Tech Zone is an advanced feature unlocked via developer gesture. Interested? Contact us to learn more.*
+
+---
+
+## Why RefLog?
+
+### Built for Mobile
+**Your pitch. Your pocket. Your terms.**
+Unlike desktop-based tools, RefLog works how you work. Code matches on the bus, take notes from the sideline, export reports before you leave the ground.
+
+### Works Offline
+**No WiFi? No problem.**
+RefLog is completely offline-capable. Your matches, your data, always available—no internet connection required.
+
+### Professional Output
+**From pitch to PDF in seconds.**
+Export polished match reports with one tap. Professional formatting, ready to share with coaches or keep for your records.
+
+### Development-Focused
+**Grow your career, not just your logbook.**
+RefLog is built for referee development. Track patterns, identify strengths, work with coaches—it's your development journey.
+
+### Coming Soon
+**Voice notes and more.**
+We're actively developing voice-powered logging, cloud sync, and collaboration features. RefLog is evolving to meet your needs.
 
 ## Screenshots (light mode) {#screenshots}
 <div class="shots">

@@ -2,7 +2,7 @@ url: "https://justinxhale.github.io"
 baseurl: "/reflog-site"
 
 title: "RefLog"
-description: "Rugby laws, explained in seconds."
+description: "The modern referee's match companion - mobile-first rugby referee logging app."
 
 markdown: kramdown
 permalink: pretty

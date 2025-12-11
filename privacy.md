@@ -8,109 +8,113 @@ permalink: /privacy.html
 
 _Last updated: {{ site.time | date: "%Y-%m-%d" }}_
 
-RefLog (“we,” “our,” or “us”) respects your privacy.  
+RefLog ("we," "our," or "us") respects your privacy.
 This Privacy Policy explains how we collect, use, and protect your information when you use our mobile application.
 
 ---
 
-## 1. Information We Collect
+## 1. Local-First, Privacy-First
 
-When you use RefLog, we may collect:
-
-- **Account Information**:  
-  - Email address  
-  - Display name (if provided)  
-  - Authentication tokens for login  
-
-- **Device Information**:  
-  - Device model and operating system version  
-  - IP address  
-  - App version  
-
-- **Usage Data**:  
-  - Actions you take in the app  
-  - Pages/screens you view  
-  - Session length and frequency of use  
-
-- **Crash & Performance Data**:  
-  - Crash logs  
-  - Diagnostics information
+RefLog is designed with your privacy in mind. **All your match data is stored locally on your device.** We do not collect, transmit, or store your match information, notes, or personal data on our servers.
 
 ---
 
-## 2. How We Collect This Information
+## 2. Information We Collect
 
-We collect information through:
+RefLog currently collects **minimal information**:
 
-- **Firebase Authentication** (Google Sign-In or email login)  
-- **Google Cloud Firestore** (storing your account and app usage data)  
-- **Google Analytics for Firebase** (usage analytics)  
+- **Device Information** (optional, for diagnostics):
+  - Device model and operating system version
+  - App version
 
-These services are provided by Google and may also collect and process information in accordance with [Google’s Privacy Policy](https://policies.google.com/privacy).
+- **Crash & Performance Data** (optional):
+  - Crash logs to help us fix bugs
+  - Diagnostics information for app stability
 
----
-
-## 3. How We Use Your Information
-
-We use collected data to:
-
-- Authenticate and manage your account  
-- Provide and improve app features  
-- Diagnose technical issues and ensure reliability  
-- Respond to your support requests
-
-We **do not sell or rent** your personal information to third parties.
+We **do not** currently collect:
+- Account information (RefLog does not require login)
+- Personal identifying information
+- Usage analytics
+- Match data or content you create
 
 ---
 
-## 4. Data Storage & Retention
+## 3. How We Use Information
 
-Your information is stored securely in Google’s Firebase and Google Cloud infrastructure.  
-We retain your information until you request its deletion.
+The minimal diagnostic information we may collect is used solely to:
+
+- Diagnose technical issues and crashes
+- Improve app stability and performance
+- Respond to support requests when you contact us
+
+We **do not sell or rent** any information to third parties.
 
 ---
 
-## 5. Your Choices & Account Deletion
+## 4. Data Storage
 
-You can request to delete your account and all associated data at any time by emailing:  
-**[justinxhale@gmail.com](mailto:justinxhale@gmail.com)**
+**Your match data is stored locally on your device** using encrypted local storage (Hive database). Your data never leaves your device unless you explicitly:
 
-We will verify your request and delete your data within **30 days**.  
-In the future, we plan to add an **in-app deletion option** for your convenience.
+- Export a PDF or Excel file and share it yourself
+- Contact support and choose to share screenshots or details
+
+We have no access to your local match data.
+
+---
+
+## 5. Future Features (Cloud Sync & Collaboration)
+
+We are planning to introduce optional cloud features in future versions, including:
+
+- Cloud backup and sync across devices
+- Collaboration Mode (sharing matches with coaches)
+
+When these features are released:
+- They will be **optional** (you can continue using RefLog locally)
+- We will update this privacy policy with details about cloud data handling
+- User authentication and cloud storage will use secure services (likely Firebase or Supabase)
 
 ---
 
 ## 6. Third-Party Services
 
-RefLog uses the following third-party services:
+RefLog currently integrates:
 
-- **Firebase Authentication**  
-- **Google Cloud Firestore**  
-- **Google Analytics for Firebase**  
+- **Flutter framework** - Cross-platform mobile development (Google)
+- **Firebase Core** - Crash reporting infrastructure (ready but not actively transmitting data)
 
-We recommend reviewing [Google’s Privacy Policy](https://policies.google.com/privacy) to understand how your data is handled by these services.
+These services may collect minimal diagnostic data in accordance with their privacy policies:
+- [Google Privacy Policy](https://policies.google.com/privacy)
 
 ---
 
 ## 7. Security
 
-We take appropriate measures to protect your data, including:
+We take appropriate measures to protect your data:
 
-- Encryption in transit (HTTPS)  
-- Secure authentication processes  
-- Data storage within trusted cloud infrastructure
-
-However, no system is 100% secure, and we cannot guarantee absolute security.
+- **Local encryption** - Your match data is encrypted on your device
+- **No cloud transmission** - Your data stays on your device unless you export it
+- **Secure app distribution** - Downloaded via official App Store and Google Play
 
 ---
 
-## 8. Changes to This Policy
+## 8. Your Control
 
-We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated “Last updated” date.
+You have full control over your data:
+
+- **Delete anytime** - Uninstall the app to remove all local data
+- **Export freely** - Export PDFs/Excel files and control who you share them with
+- **No account required** - No login means no account to manage or delete
 
 ---
 
-## 9. Contact Us
+## 9. Changes to This Policy
 
-If you have questions or concerns about this Privacy Policy, please contact us:  
+We may update this Privacy Policy as new features are added (especially cloud features). Changes will be posted on this page with an updated "Last updated" date.
+
+---
+
+## 10. Contact Us
+
+If you have questions or concerns about this Privacy Policy, please contact us:
 **Email:** [justinxhale@gmail.com](mailto:justinxhale@gmail.com)  

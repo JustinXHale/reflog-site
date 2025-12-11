@@ -6,3 +6,7 @@ description: "The modern referee's match companion - mobile-first rugby referee 
 
 markdown: kramdown
 permalink: pretty
+
+# Exclude local symlinked docs folder from GitHub Pages build
+exclude:
+  - docs
